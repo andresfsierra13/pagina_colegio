@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Informatica temas</title>
+<meta charset="Utf-8"/>
+<meta name="" content="Pagina del la Institucion educativa........" />
+<meta name="keywords" content="Educativa, Institucion">
+<link rel="stylesheet" type="text/css" href="CSS/Estilos.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+	
+$(document).ready(function(){
+	var altura = $('.menu').offset().top;
+	
+	$(window).on('scroll', function(){
+		if ( $(window).scrollTop() > altura ){
+			$('.menu').addClass('menu-fixed');
+		} else {
+			$('.menu').removeClass('menu-fixed');
+		}
+	});
+ 
+});
+</script>
+</head>
+<body background="Imagenes/Black_School.jpg">
+<header>
+	<div class="contenedor" align="center">
+	<div class="logo">
+				<img src="Imagenes/portada.png" alt="" width="1000" height="300" border="3">
+			</div>
+		<nav class="menu">
+			<ul >
+				<li><a href="index.html" >Inicio</a></li>
+				<li><a href="perfil.html" >Perfil</a>
+					<ul>
+						<li><a href="Archivos.html" class="IN">Mis Archivos</a></li>
+					</ul>
+				</li>
+				<li><a href="Biblioteca.html">Biblioteca</a>
+					<ul>
+					<li><a href="Matematicas.html" class="IN">Matematicas</a></li>
+					<li><a href="Tematicas Informatica.html" class="IN">Informatica</a></li>
+					<li><a href="Tematicas Historia.html" class="IN">Historia</a></li>
+					<li><a href="Tematicas Ingles.html" class="IN">Lenguas</a></li>
+					<li><a href="Tematicas Naturales.html" class="IN">Biologia</a></li>
+				</ul>
+				</li>
+				<li><a href="I-E.html">Mi Institución</a>
+					 <ul>
+					<li><a href="Mision.html" class="IN">Mision</a></li>
+					<li><a href="Vision.html" class="IN">Vision</a></li>
+					<li><a href="Manual.html" class="IN">Manual</a></li>
+					
+				</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<div align="center">
+<div class="divazul">
+<h1>Temas de Informatica</h1>
+<br><img src="Imagenes/Enconstrucion.jpg"><br>
+<table class="Tablat">
+	<tr>
+		<th colspan="3">Tematicas de Informatica </th>
+	</tr>
+	<tr>
+		<td>La Historia de la Computadora</td>
+		<td>En este tema encotraremos un video y informacion relacionada sobre el mismo</td>
+		<td><a href="tema-Informatica-1.html">Dar clic aqui. </td>
+	</tr>
+	<tr>
+		<td>Como Funciona el Internet</td>
+		<td>Aqui encontraras informacion basica su video para mayor aprendisaje</td>
+		<td><a href="tema-Informatica-2.html">Dar clic aqui.</td>
+	</tr>
+	<tr>
+		<td>La Computadora y sus PartesInformatica<td>en este tema encotraremos un video y informacion relacionada sobre el mismo</td>
+		<td><a href="tema-Informatica-3.html">Dar clic aqui.</td>
+	</tr>
+</table>
+</div>
+</div>
+<div align="center">
+<table id="pie">
+	<tr>
+		<td width="50%" align="center"><a href="#Inicio" class="piea">Inicio</a> </td>
+		<td width="50%" align="center" color="#fffff">Power by Aprendiz Sena 2017</td>
+
+	</tr>
+</table>
+</div>
+</body>
+
+</html>

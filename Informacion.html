@@ -1,0 +1,161 @@
+<html>
+<head>
+<title>Información</title>
+<meta name="" content="Pagina del la Institucion educativa........" />
+<meta name="keywords" content="Educativa, Institucion">
+<link rel="stylesheet" type="text/css" href="CSS/Estilos.css">
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+	
+$(document).ready(function(){
+	var altura = $('.menu').offset().top;
+	
+	$(window).on('scroll', function(){
+		if ( $(window).scrollTop() > altura ){
+			$('.menu').addClass('menu-fixed');
+		} else {
+			$('.menu').removeClass('menu-fixed');
+		}
+	});
+ 
+});
+</script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body background="Imagenes/Black_School.jpg">
+<div align="center">
+<header>
+	<div class="contenedor" align="center">
+	<div class="logo">
+				<img src="Imagenes/portada.png" alt="" width="1000" height="300" border="3">
+			</div>
+		<nav class="menu">
+			<ul >
+				<li><a href="index.html" >Inicio</a></li>
+				<li><a href="perfil.html" >Perfil</a>
+					<ul>
+						<li><a href="Archivos.html" class="IN">Mis Archivos</a></li>
+					</ul>
+				</li>
+				<li><a href="Biblioteca.html">Biblioteca</a>
+				<ul>
+					<li><a href="Matematicas.html" class="IN">Matematicas</a></li>
+					<li><a href="Tematicas Informatica.html" class="IN">Informatica</a></li>
+					<li><a href="Tematicas Historia.html" class="IN">Historia</a></li>
+					<li><a href="Tematicas Ingles.html" class="IN">Lenguas</a></li>
+					<li><a href="Tematicas Naturales.html" class="IN">Biologia</a></li>
+				</ul>
+				</li>
+				<li><a href="I-E.html">Mi Institución</a>
+					 <ul>
+					<li><a href="Mision.html" class="IN">Mision</a></li>
+					<li><a href="Vision.html" class="IN">Vision</a></li>
+					<li><a href="Manual.html" class="IN">Manual</a></li>
+					</ul>
+				</li>
+				<li><a href="Informacion.html">Información</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<!--
+<div align="center">
+<img src="Imagenes/portada.png" width="900" height="300" border="3">
+<div id="menudiv" >
+<ul class="menu">
+				<li><a href="Inicio.html" class="INII"><img src="Imagenes/home.jpg" width="40" height="40"></a> 
+				</li>
+				
+				<li><a href="perfil.html" class="INI"><img src="Imagenes/perfil.png" width="40" height="40"></a>
+				<ul> 
+					<li><a href="Boletin.html" class="IN"><img src="Imagenes/notas.png" width="40" height="40"></a></li>
+					<li><a href="Archivos" class="IN">Mis Archivos</a></li>
+				</ul>
+				</li>
+				
+				<li><a href="Biblioteca.html" class="INI"><img src="Imagenes/Biblio.png" width="40" height="40"></a>
+                <ul>
+					<li><a href="blogs.html" class="IN">Blogs</a></li>
+					<li><a href="videos.html" class="IN">Videos</a></li>
+				</ul>
+				</li>
+				
+				<li><a href="I-E.html" class="INI"><img src="Imagenes/colegio.png" width="40" height="40"></a>
+                <ul>
+					<li><a href="Mision.html" class="IN">Mision</a></li>
+					<li><a href="Vision.html" class="IN">Vision</a></li>
+					<li><a href="Sub paginas  I-E/Manual.html" class="IN">Manual</a></li>
+					<li><a href="Sub paginas  I-E/Imagenes I-E.html" class="IN">Imagenes</a></li>
+					<li><a href="Sub paginas  I-E/Videos I-E.html" class="IN">Videos</a></li>
+				</ul>
+				</li>
+				
+				<li><a href="Contacto.html" class="INI"><img src="Imagenes/ayuda.png" width="40" height="40"></a>
+				<ul>
+				<li><a href="Ayuda.html" class="IN">Ayuda</a></li>
+				<li><a href="Informacion.html" class="IN">Informacion</a></li>
+				</ul>
+				</li>
+				
+				
+
+</ul>
+
+</div>
+-->
+<div align="center">
+<div class="divazul">
+<h1>Información Institucional</h1>
+<img src="Imagenes/inf.jpg">
+<br><img src="Imagenes/Enconstrucion.jpg"><br>
+<div align="left">
+<font color="#000" face="arial" size="5px" align="left"><br>
+	<b>RAZÓN SOCIAL</b>: INSTITUCIÓN EDUCATIVA DE MESOLANDIA
+		<br>
+		<br>
+        <b>DIRECCIÓN:</b> Carrera 40 No. 8 – 43  Barrio Mesolandia (Malambo – Atlántico) 
+        <br>
+        <br>                            
+        <b>TELÉFONO:</b> 3204496
+        <br>
+        <br>
+		<b>NIVELES DE ENSEÑANZA:</b> Educación Pre-escolar, Educación Básica Primaria, Educación Básica Secundaria y Media Secundaria.
+		<br>
+		<b>SECTOR:</b> Oficial
+		<br>
+		<br>
+		<b>CALENDARIO:</b> A
+		<b>RECTOR:</b> Ing. Jorge Mancilla Franco
+		<br>
+		<br>
+		<b>FUNDACIÓN:</b> Acuerdo Nº 041 de Diciembre 10 de 2001 y Nº 025 de Diciembre 5 de 2002.
+		<br>
+		<br>
+		<b>ORDENACIÓN:</b> Decreto Nº 000908 de Octubre 28 de 2002.
+		<br>
+		<br>
+		<b>NIT:</b> 802.020.857-1
+		<br>
+		<br>
+		<b>DANE:</b> 108433075761
+		<br>
+		<br>
+		<b>CODIGO ICFES:</b> 144253
+		<br>
+		<br>
+		<b>JORNADAS:</b> Mañana y Tarde.</font>
+</div>
+</div>
+</div>
+<div align="center">
+<table id="pie">
+	<tr>
+		<td width="50%" align="center"><a href="#Inicio" class="piea">Inicio</a> </td>
+		<td width="50%" align="center" color="#fffff">Power by Aprendiz Sena 2017</td>
+
+	</tr>
+</table>
+</div>
+</body>
+
+</html>
