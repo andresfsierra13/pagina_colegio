@@ -1,2 +1,2 @@
 # pagina_colegio
-primera edicion en git
+## Version: BETA (0.1)
