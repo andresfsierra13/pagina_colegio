@@ -1,2 +1,11 @@
-# pagina_colegio
-## Version: BETA (0.1)
+# Boilerplate of React
+![Type license](https://img.shields.io/crates/l/rustc-serialize.svg)
+
+By Stiven Bautista
+
+## Using the following stack
+* REACT
+* SASS
+* BABEL
+* EXPRESS
+* WEBPACK 4
