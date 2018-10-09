@@ -1,0 +1,39 @@
+{
+    "personas": [
+        {
+            "id": "1",
+            "firtName": "stiven",
+            "lastName": "bautista",
+            "age": "20",
+            "height": "1.75"
+        },
+        {
+            "id": "2",
+            "firtName": "andrea",
+            "lastName": "ferrer",
+            "age": "21",
+            "height": "1.65"
+        },
+        {
+            "id": "3",
+            "firtName": "sofia",
+            "lastName": "ribera",
+            "age": "19",
+            "height": "1.60"
+        },
+        {
+            "id": "4",
+            "firtName": "carolina",
+            "lastName": "servantes",
+            "age": "22",
+            "height": "1.70"
+        },
+        {
+            "id": "5",
+            "firtName": "carlos",
+            "lastName": "andres",
+            "age": "19",
+            "height": "1.65"
+        }
+    ]
+}

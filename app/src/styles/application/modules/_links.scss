@@ -1,0 +1,12 @@
+.link-basic {
+  padding: 1em;
+  border: 1px solid skyblue;
+  color: #000;
+  margin: .5em;
+  background: skyblue;
+  text-decoration: none;
+  &:hover {
+    color: #FFF;
+    background: rgb(20, 107, 221);
+  }
+}
